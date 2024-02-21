@@ -1,0 +1,8 @@
+triggers:
+  - cron:
+      spec: "0 0 * * *"
+      entryPoint: default
+
+flows:
+  default:
+    - log: "Hello, ${event}!"
