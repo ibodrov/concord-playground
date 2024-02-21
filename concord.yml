@@ -1,6 +1,6 @@
 triggers:
   - cron:
-      spec: "* * * * *"
+      spec: "* x * * *"
       entryPoint: default
   - foo:
       version: 2
