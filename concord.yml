@@ -2,6 +2,11 @@ triggers:
   - cron:
       spec: "* * * * *"
       entryPoint: default
+  - foo:
+      version: 2
+      conditions:
+        x: "foo"
+      entryPoint: default
 
 flows:
   default:
