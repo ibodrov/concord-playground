@@ -1,6 +1,6 @@
 triggers:
   - cron:
-      spec: "0 0 * * *"
+      spec: "* * * * *"
       entryPoint: default
 
 flows:
